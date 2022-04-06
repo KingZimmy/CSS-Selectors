@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+ * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+#container {
+  background-color: coral;
+  padding: 10px;
+  width:90%;
+  margin: 20px auto;
+  border: 2px solid black;
+ 
+}
+
+.flex-container {
+  display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.flex-container > figure {
+      border: 3px solid darkviolet;
+      border-radius: 15px;
+      padding: .5em;
+      width: 25%;
+      text-align: center;
+      box-shadow: 5px 10px darkgray
+}
+
+
+
+[title~=stripped] {
+  background-color:lightpink;
+}
+
+
+
+[class|=top] {
+  background-color: lightyellow;
+}
+
+
+
+figure[lang~="en-us"] {
+  background-color: lightblue;
+}
+
+[class="bottom"]{
+  background-color: lightgreen;
+  
+}
+
+img[alt~="multi-color"] {
+  border: 5px solid green;
+}
+
